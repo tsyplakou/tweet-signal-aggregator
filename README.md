@@ -19,6 +19,9 @@ cd tweet-signal-task
 
 To run the application, execute:
 ```bash
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
 TWITTER_BEARER_TOKEN="YOUR_TOKEN" python app.py
 ```
 
@@ -26,5 +29,8 @@ TWITTER_BEARER_TOKEN="YOUR_TOKEN" python app.py
 
 To run the tests, execute:
 ```bash
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
 python -m pytest
 ```
